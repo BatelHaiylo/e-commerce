@@ -1,15 +1,15 @@
-import Router from "./components/router/Router";
-import NavBar from "./components/navbar/NavBar";
+import Router from "./components/router/Routers";
+import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
+// import CartMenu from "./components/cart/CartMenu"; 
 
-function App() {
+export default function App() {
   return (
     <div className="app">
-      <NavBar/>
+      <Navbar/>
       <Router/>
+      {/* <CartMenu/> */}
       <Footer/>
     </div>
   );
-}
-
-export default App;
+};

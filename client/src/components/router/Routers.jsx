@@ -14,7 +14,7 @@ const ScrollToTop = () => {
   return null;
 };
 
-export default function Router() {
+export default function Routers() {
   return (
     <>
       <ScrollToTop />
